@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: ;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom:15px ;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: lightgray;
+}
+header>p{
+    font-size: 24px;
+    color: rgb(179, 174, 174);
+}
+
+header>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    font-size: 18px;
+    margin: auto;
+    padding: 15px;
+    color: rgb(225, 71, 207);
+
+}
+header>ul>li:first-child{
+    color: rgba(31, 35, 39, 0.84);
+    font-weight: bold;
+}
+header>div.flex{
+    justify-content: space-between;
+    color: rgba(82, 90, 96, 0.583);
+    margin: auto;
+    width: 90%;
+    padding-top: 40px;
+}
+header>div.flex>ul.flex{
+    list-style: none;
+    margin: auto;
+    justify-content: space-between;
+    width: 60%;
+}
+
+header>div.flex>ul.flex>li:hover{
+    color: black;
+    background-color: rgb(200, 197, 197);
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+main>div.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-items img{
+    width: 290px;
+    height: 220px;
+    margin: 1%;   
+}
+.autore img{
+    
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+div .autore>span{
+    font-size: smaller;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+#popular{
+    border: solid 2px pink;
+    border-radius: 5px;
+    width: 70px;
+    color: black;
+}
+
+#filters{
+    border: solid 2px lightgray;
+    border-radius: 5px;
+    width: 70px;
+    color: black;
+}
+

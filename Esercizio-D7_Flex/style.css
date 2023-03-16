@@ -1,0 +1,54 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+header{
+    background-color: aqua;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    background-color: aquamarine;
+}
+h2{
+    padding: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 25px;   
+    color: black;
+}
+.item{
+    height: 500px;
+    
+}
+.navigation{
+    width: 20%;
+}
+.article{
+    width: 50%;
+}
+.aside{
+    width: 30%;
+}
+.orange{
+    background-color: orange;
+}
+.blanche{
+    background-color: blanchedalmond;
+}
+.yellow{
+    background-color: yellow;
+}
+.acqua{
+    background-color: aqua;
+}
+.footer{
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    background-color: aquamarine;
+
+}
